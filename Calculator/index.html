@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--DotGothic16 font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+        <div class="upper">
+            <div class="head">
+            </div>
+            <div class="screen">0</div>
+        </div>
+        <div class="lower">
+            <ul>
+                <li id="ac">AC</li>
+                <li id="plus-or-minus">+/-</li>
+                <li id="to-percent">%</li>
+                <input type="radio" name="operation" value="division"><label for="division">&#247</label>
+                <li class="number">7</li>
+                <li class="number">8</li>
+                <li class="number">9</li>
+                <input type="radio" name="operation" value="multiplication"><label for="multiplication">&#215</label>
+                <li class="number">4</li>
+                <li class="number">5</li>
+                <li class="number">6</li>
+                <input type="radio" name="operation" value="minus"><label for="minus">&#8722</label>
+                <li class="number">1</li>
+                <li class="number">2</li>
+                <li class="number">3</li>
+                <input type="radio" name="operation" value="plus"><label for="plus">&#43</label>
+                <li class="number twobox">0</li>
+                <li class="number">.</li>
+                <input type="radio" name="operation" value="divide"><label for="divide">&#61</label>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
