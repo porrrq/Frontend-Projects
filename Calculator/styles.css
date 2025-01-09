@@ -1,102 +1,19 @@
-body {
-    place-items: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
 }
 .calculator {
-    width: 500px;
-    height: 850px;
-    border: 2px solid gray;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
-    overflow: hidden;
-    padding: 10px;
-}
-.upper {
-    width:95%;
-    height: calc(800px / 3);
-    margin: auto;
-    justify-items: center;
-}
-.lower {
-    width: 95%;
-    height: calc(800px * 2 / 3);
-    margin: auto
-}
-.head {
-    width: 100%;
-    height: 30%;
-    display: flex;
-}
-.logo {
-    
-    font-size: 3rem;
-    flex: 1;
-    text-align: center;
-}
-.solar-panel {
-    flex: 2;
-    background: black;
-    margin: 15px;
-    border-radius: 20px;
-    border: 1px solid black;
-    display:flex;
-    overflow: hidden;
-}
-.screen {
-    width:90%;
-    height: 5rem;
+    width: 350px;
+    height: 500px;
     background: lightgray;
-    border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 0 10px gray;
-    padding: 20px;
-    text-align: end;
-    align-content: center;
-    font-size: 2.5rem;
-    font-family: "DotGothic16", serif;
+    border-radius: 20px; 
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 10px 20px gray;
 }
-.lower ul {
-    margin-top: -10px;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    padding: 0;
-    justify-content: center;
-}
-li, label {
-    list-style: none;
-    border-radius: 20px;
-    margin: 0;
-    padding: 0;
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    text-align: center;
-    align-content: center;
-    font-size: 2rem;
-    font-family: sans-serif;
-    border: 1px solid gray;
-}
-label{
-    background-color: lightsalmon;
-}
-.twobox {
-    width: 210px;
-}
-input[type="radio"] {
-    position: absolute;
-    visibility: visible;
-    width:0;
-    height:0;
-    margin:0;
-    padding:0;
-}
-li:hover, label:hover {
-    box-shadow: 0 0 5px lightskyblue;
-    transform: scale(1.05);
-    cursor: pointer;
-}
-#ac,#plus-or-minus,#to-percent {
-    background-color: lightyellow;
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
 }

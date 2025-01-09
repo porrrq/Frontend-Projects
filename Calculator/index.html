@@ -13,32 +13,29 @@
 <body>
     <div class="calculator">
         <div class="upper">
-            <div class="head">
-            </div>
-            <div class="screen">0</div>
+            <div class="head"></div>
+            Output: <div class="screen">0</div>
         </div>
         <div class="lower">
-            <ul>
-                <li id="ac">AC</li>
-                <li id="plus-or-minus">+/-</li>
-                <li id="to-percent">%</li>
-                <input type="radio" name="operation" value="division"><label for="division">&#247</label>
-                <li class="number">7</li>
-                <li class="number">8</li>
-                <li class="number">9</li>
-                <input type="radio" name="operation" value="multiplication"><label for="multiplication">&#215</label>
-                <li class="number">4</li>
-                <li class="number">5</li>
-                <li class="number">6</li>
-                <input type="radio" name="operation" value="minus"><label for="minus">&#8722</label>
-                <li class="number">1</li>
-                <li class="number">2</li>
-                <li class="number">3</li>
-                <input type="radio" name="operation" value="plus"><label for="plus">&#43</label>
-                <li class="number twobox">0</li>
-                <li class="number">.</li>
-                <input type="radio" name="operation" value="divide"><label for="divide">&#61</label>
-            </ul>
+            <button value="." name="dot" class="number">.</button>
+            <button value="1" name="one" class="number">1</button>
+            <button value="2" name="two" class="number">2</button>
+            <button value="3" name="three" class="number">3</button>
+            <button value="4" name="four" class="number">4</button>
+            <button value="5" name="five" class="number">5</button>
+            <button value="6" name="six" class="number">6</button>
+            <button value="7" name="seven" class="number">7</button>
+            <button value="8" name="eight" class="number">8</button>
+            <button value="9" name="nine" class="number">9</button>
+            <button value="0" name="zero" class="number">0</button>
+            <button value="+" name="plus" class="operation">+</button>
+            <button value="-" name="minus" class="operation">-</button>
+            <button value="*" name="multiply" class="operation">*</button>
+            <button value="/" name="divide" class="operation">/</button>
+            <button value="=" name="equal">=</button>
+            <button value="%" name="percent">%</button>
+            <button value="ac" name="ac">AC</button>
+            <button value="plus-or-minus" name="plus-or-minus">+/-</button>
         </div>
     </div>
     <script src="script.js"></script>
