@@ -1,0 +1,61 @@
+:root {
+    --black: #000000;
+    --navy-black: #0B192C;
+    --navy: #1E3E62;
+    --organce: #FF6500;
+}
+html {
+    background-color: var(--black);
+}
+*{margin:0;padding:0;}
+.container {
+    width: 300px;
+    max-height: 700px;
+    height:max-content;
+    min-height:300px;
+    padding:10px 30px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+h1 {
+    text-align: left;
+    margin: 20px 0 10px 0 ;
+}
+.input-container {
+    width: 100%;
+}
+.task-input {
+    width: 80%;
+    height: 2rem;
+}
+.add-task-btn {
+    width: 15%;
+    height: 2rem;
+}
+.todolist-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    max-height: 200px;
+    overflow: auto;
+}
+.todo {
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+   gap: 20px; 
+   height: 200px;
+}
+.task-title {
+    width: 70%;
+}
+.done {
+    border: 2px solid red;
+}
+

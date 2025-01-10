@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-do app</title>
+    <!--CSS-->
+    <link href="styles.css" rel="stylesheet">
+    <!--Import Boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    <div class="container">
+        <h1><i class='bx bx-list-ul bx-flip-vertical'></i> To-Do List</h1>
+        <div class="input-container">
+            <input placeholder="Add your task" class="task-input">
+            <button type="button" class="add-task-btn">Add</button>
+        </div>
+        <div class="todolist-container">
+            <div class="todo">
+                <input type="checkbox" class="task-checkbox">
+                <input readonly value="Example task" class="task-title">
+                <button type="button" class="del-task-btn">x</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
