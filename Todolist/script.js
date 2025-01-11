@@ -19,13 +19,23 @@ function addTask() {
     }
     else {
         //Append new task
-        const newTodo = 
-        `  <div class="todo">
-               <input type="checkbox" class="task-checkbox">
-               <input readonly value="${taskInput.value}" class="task-title">
-               <button type="button" class="del-task-btn">x</button>
-           </div>
-       `
+        // <div class="todo">
+        //     <input type="checkbox" class="task-checkbox">
+        //     <input readonly value="${taskInput.value}" class="task-title">
+        //     <button type="button" class="del-task-btn">x</button>
+        // </div>
+        const newTodo = document.createElement("div");
+        newTodo.classList.add("todo");
+        const newCheckbox = document.createElement("input");
+        newCheckbox.setAttribute("type","checkbox");
+        newCheckbox.classList.add("task-checkbox");
+        const newTaskTitle = document.createElement("input");
+        newTaskTitle.readOnly = true;
+        newTaskTitle.setAttribute("value",taskInput.value)
+        newTaskTitle.setAttribute("class","task-title")
+        const newDelButton = 
+        
+       
         todoList.appendChild(newTodo) 
         //Clear input field
         taskInput.value = "";
